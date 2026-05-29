@@ -1,29 +1,36 @@
 # Mars Photos App
 
-Este proyecto está diseñado para seguir las mejores prácticas de desarrollo moderno recomendadas para Android. Es una guía práctica para la enseñanza de conceptos fundamentales y avanzados en el ecosistema Android Studio.
+Aplicación Android desarrollada en Kotlin y Jetpack Compose.
 
-La aplicación consume datos reales de Marte a través de la API de fotos de Android:
-[https://android-kotlin-fun-mars-server.appspot.com/photos](https://android-kotlin-fun-mars-server.appspot.com/photos)
+## Descripción
 
-## Autor
+La aplicación consume fotografías reales de Marte desde una API REST utilizando Retrofit.
 
-**Mg. Ing. Fabian Enrique Suarez Carvajal**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fabian-enrique-suarez-carvajal/)
+Permite:
 
-## Objetivos de Aprendizaje
+- Consumir servicios REST
+- Mostrar imágenes en Grid
+- Utilizar ViewModel para gestión de estados
+- Implementar Repository Pattern
+- Cargar imágenes con Coil
+- Manejar estados de carga y error
 
-El proyecto se enfoca en la implementación de temas críticos para cualquier desarrollador Android profesional:
+## Tecnologías utilizadas
 
-*   **Retrofit:** Consumo de servicios RESTful y manejo de respuestas de red.
-*   **Arquitectura de Capas:** Clara separación de responsabilidades entre la capa de **Datos** (repositorios, fuentes de datos) y la capa de **UI** (ViewModels, Composables).
-*   **Coil:** Carga eficiente y manejo de imágenes directamente desde la web en Jetpack Compose.
-*   **Inversión de Dependencia Manual:** Implementación de contenedores de dependencias para facilitar la modularidad, el desacoplamiento y las pruebas unitarias sin depender de frameworks externos complejos.
+- Kotlin
+- Jetpack Compose
+- Retrofit
+- Coil
+- ViewModel
+- Coroutines
 
-## Tecnologías Utilizadas
+## Trabajado por: 
 
-- **Jetpack Compose:** Para una UI declarativa y moderna.
-- **Kotlin Coroutines:** Manejo de asincronía y flujos de datos.
-- **Kotlin Serialization:** Para el parseo de datos JSON.
+Ing. Marcia Miranda
 
----
-*Orientado a la enseñanza de mejores prácticas en el ecosistema Android.*
+Maestría en Gestión, Aplicación y Desarrollo de Software
+Universidad UNAB
+
+## API utilizada
+
+https://android-kotlin-fun-mars-server.appspot.com/photos
